@@ -20,7 +20,7 @@ public class TriggerSound : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        source.mute = !source.mute;
+        source.mute = true;
 
     }
 }
