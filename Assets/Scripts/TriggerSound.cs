@@ -17,4 +17,10 @@ public class TriggerSound : MonoBehaviour
     {
         source.Play();
     }
+
+    private void OnTriggerExit(Collider other)
+    {
+        source.mute = !source.mute;
+
+    }
 }
