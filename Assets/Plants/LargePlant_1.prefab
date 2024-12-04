@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4038728793854540104}
   - component: {fileID: 3515579612407702019}
   - component: {fileID: 2517178646768509064}
-  - component: {fileID: 5897678668481916745}
+  - component: {fileID: 5503066006775218031}
   m_Layer: 0
   m_Name: LargePlant_1
   m_TagString: Untagged
@@ -85,7 +85,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!205 &5897678668481916745
+--- !u!205 &5503066006775218031
 LODGroup:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -94,7 +94,7 @@ LODGroup:
   m_GameObject: {fileID: 3202103821947115482}
   serializedVersion: 2
   m_LocalReferencePoint: {x: 0, y: 0, z: 0}
-  m_Size: 1
+  m_Size: 7
   m_FadeMode: 0
   m_AnimateCrossFading: 0
   m_LastLODIsBillboard: 0
@@ -102,14 +102,17 @@ LODGroup:
   - screenRelativeHeight: 0.6
     fadeTransitionWidth: 0
     renderers:
+    - renderer: {fileID: 2517178646768509064}
     - renderer: {fileID: 3163035248409816868}
   - screenRelativeHeight: 0.3
     fadeTransitionWidth: 0
     renderers:
+    - renderer: {fileID: 2517178646768509064}
     - renderer: {fileID: 3163035248409816868}
   - screenRelativeHeight: 0.1
     fadeTransitionWidth: 0
     renderers:
+    - renderer: {fileID: 2517178646768509064}
     - renderer: {fileID: 3163035248409816868}
   m_Enabled: 1
 --- !u!1 &8802867065409806088
@@ -139,7 +142,7 @@ Transform:
   m_GameObject: {fileID: 8802867065409806088}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2054984965542895371}
   - component: {fileID: 1736139993235266879}
   - component: {fileID: 2536354170355476548}
-  - component: {fileID: 4283615258205397615}
+  - component: {fileID: 2454673111982908328}
   m_Layer: 0
   m_Name: GargantuanPlant_1
   m_TagString: Untagged
@@ -85,7 +85,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!205 &4283615258205397615
+--- !u!205 &2454673111982908328
 LODGroup:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -94,8 +94,8 @@ LODGroup:
   m_GameObject: {fileID: 8073326877727258170}
   serializedVersion: 2
   m_LocalReferencePoint: {x: 0, y: 0, z: 0}
-  m_Size: 1
-  m_FadeMode: 0
+  m_Size: 7
+  m_FadeMode: 1
   m_AnimateCrossFading: 0
   m_LastLODIsBillboard: 0
   m_LODs:
